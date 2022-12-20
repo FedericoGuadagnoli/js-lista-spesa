@@ -14,7 +14,7 @@ console.log(listElements);
 
 // Inserisco gli elementi della lista uno ad uno tramite il ciclo while
 let i = 0;
-while (i !== list.length) {
+while (i < list.length) {
     const name = list[i];
     console.log(name);
     listElements += `<li>${name}</li>`;
